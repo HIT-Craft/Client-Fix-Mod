@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "client-fix-mod",
+  "version": "1.0.0",
+
+  "name": "Client Fix Mod",
+  "description": "Fix bugs and reduce lag for client",
+  "authors": [
+    "ten_miles_away"
+  ],
+  "contact": {
+    "homepage": "https://github.com/HIT-Craft/Client-Fix-Mod",
+    "sources": "https://github.com/HIT-Craft/Client-Fix-Mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/client-fix-mod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "client-fix-mod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.14.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
