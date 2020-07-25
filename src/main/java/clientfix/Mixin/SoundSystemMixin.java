@@ -20,7 +20,7 @@ public abstract class SoundSystemMixin {
             ),
             allow = 1
     )
-    boolean pleaseRemoveInstanceThatWillNeverBeAccessed(Channel.SourceManager sourceManager)
+    boolean pleaseCheckAllInstanceForRemovalToStopLeaking(Channel.SourceManager sourceManager)
     {
         return true;
     }
