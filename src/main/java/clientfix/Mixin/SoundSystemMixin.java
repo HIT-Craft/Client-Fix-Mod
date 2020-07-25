@@ -1,13 +1,10 @@
 package clientfix.Mixin;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.minecraft.client.sound.*;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-@Environment(EnvType.CLIENT)
 @Mixin(SoundSystem.class)
 public abstract class SoundSystemMixin {
 
